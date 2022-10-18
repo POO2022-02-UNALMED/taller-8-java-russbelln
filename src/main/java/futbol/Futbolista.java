@@ -27,6 +27,11 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 
     public abstract boolean jugarConLasManos();
 
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -51,8 +56,4 @@ public abstract class Futbolista implements Comparable<Futbolista> {
         this.posicion = posicion;
     }
 
-    @Override
-    public int compareTo(Futbolista o) {
-        return 0;
-    }
 }
