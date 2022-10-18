@@ -2,7 +2,7 @@ package futbol;
 
 import javax.swing.plaf.FontUIResource;
 
-public abstract class Futbolista implements Comparable<Futbolista>{
+public abstract class Futbolista implements Comparable{
     private String nombre;
     private int edad;
     private String posicion;
@@ -57,7 +57,7 @@ public abstract class Futbolista implements Comparable<Futbolista>{
     }
 
     @Override
-    public int compareTo(Futbolista o) {
+    public int compareTo(Object o) {
         return 0;
     }
 }
