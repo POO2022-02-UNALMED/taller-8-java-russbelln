@@ -16,6 +16,12 @@ public class Jugador extends Futbolista{
         this.dorsal = 7;
     }
 
+    public Jugador() {
+        super();
+        this.golesMarcados = 289;
+        this.dorsal = 7;
+    }
+
     @Override
     public boolean jugarConLasManos() {
         return false;
