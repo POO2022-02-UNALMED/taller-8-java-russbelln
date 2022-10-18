@@ -23,11 +23,7 @@ public abstract class Futbolista implements Comparable<Futbolista> {
     public String toString() {
         return "El futbolista "+this.nombre+" tiene "+this.edad+", y juega de "+this.posicion;
     }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
-    }
+    
 
     public abstract boolean jugarConLasManos();
 
